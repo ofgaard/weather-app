@@ -1,0 +1,27 @@
+/* import roboto font from google */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    background-image: url('images/bgimg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.topnav {
+    background-color: #33333349;
+    overflow: hidden;
+    color: rgb(214, 210, 210);
+    padding-left: 3rem;
+}
