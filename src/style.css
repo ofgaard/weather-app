@@ -37,3 +37,18 @@ body {
     align-items: center;
     gap: 2rem;
 }
+
+.mainpage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-box {
+    margin-top: 13em;
+    background-color: #dadadac8;
+    padding: 10%;
+    border-radius: 8px;
+    max-width: 10%;
+
+}
